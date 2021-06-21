@@ -32,3 +32,4 @@ def check_subgrid(self,grid,row,col,number):
 
 
 print(grid)
+#finish working on making the grid and creating a proper sudoku puzzle then work on solving
