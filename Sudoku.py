@@ -4,8 +4,7 @@ random.seed()
 
 grid = [[0 for i in range(9)] for j in range(9)]
 
-def create_puzzle(self, grid):
-    possible_numbers = [1,2,3,4,5,6,7,8,9]
+
 
 def check_row(self, grid, row, number):
     #check if row is valid
