@@ -5,8 +5,8 @@ from random import shuffle
 def create_puzzle(self, grid):
     possible_numbers = [1,2,3,4,5,6,7,8,9]
     for i in range(0,81):
-        row=i//9
-        col=i%9
+        row=i//9 #first time = 0 2nd = 0 3rd = 0 
+        col=i%9 #first time = 0 2nd = 1 
 		#find next empty cell
         if grid[row][col]==0:
             shuffle(possible_numbers)      
